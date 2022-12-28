@@ -95,15 +95,17 @@
 * set mouse =a,r
 
 vim기본파일설정
+
 $vi ~/.exrc
-se un ai ci si
-se ts=4
-se sw=4
-se ruler
-se title
-se showmatch
-syntax on
-hi comment ctermfg=red
+* se un ai ci si
+* se ts=4
+* se sw=4
+* se ruler
+* se title
+* se showmatch
+* syntax on
+* hi comment ctermfg=red
+
 
 ## day2
   5. 홈 디렉터리와 환경설정
