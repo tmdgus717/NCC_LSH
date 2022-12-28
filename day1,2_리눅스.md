@@ -92,6 +92,19 @@
 * HJKL
 * gg : 처음으로
 * G : 마지막으로
+* set mouse =a,r
+
+vim기본파일설정
+$vi ~/.exrc
+se un ai ci si
+se ts=4
+se sw=4
+se ruler
+se title
+se showmatch
+syntax on
+hi comment ctermfg=red
+
 ## day2
   5. 홈 디렉터리와 환경설정
   6. 파일 분류 권한의 이해
