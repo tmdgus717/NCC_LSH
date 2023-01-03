@@ -44,7 +44,7 @@
  * utf-8 : Unicode Transformation Format - 8bit
  * ANSI : American National Standards Institute : 8bit 문자표현 방식
  * console 명령어 : %~% : 변수로 해석합니다. :
- 
+ * IDE : Integrated Development Environment
 <strong>환경변수설정</strong>
 * 컴퓨터가 자바가 설치된 경로를 자동으로 찾지 못하기 때문에 path로 자바 응용프로그램(ex.jdk,jre)가 환경변수 설정 path 를 통해 설치된 폴더 위치를 가리켜야한다.
 
