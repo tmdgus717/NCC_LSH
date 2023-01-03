@@ -36,3 +36,20 @@
 * url = Uniform Resource Locator : 리소스의 위치를 가리키는 문자열
           
  ## day2
+ //용어정리
+ * csv = 구분자 : command seperated value
+ * snake case : csv = _ (언더바)
+ * camel case : csv = 대문자
+ * cmd = command = console
+ * utf-8 : Unicode Transformation Format - 8bit
+ * ANSI : American National Standards Institute
+ * console 명령어 : %~% : 변수로 해석합니다.
+ 
+<strong>환경변수설정</strong>
+* 컴퓨터가 자바가 설치된 경로를 자동으로 찾지 못하기 때문에 path로 자바 응용프로그램(ex.jdk,jre)가 환경변수 설정 path 를 통해 설치된 폴더 위치를 가리켜야한다.
+
+ JAVA_HOME = C:\Program Files\Java\jdk1.8.0_181
+ 
+ path : %JAVA_HOME%\bin
+ 
+ echo %path%
