@@ -42,8 +42,8 @@
  * camel case : csv = 대문자
  * cmd = command = console
  * utf-8 : Unicode Transformation Format - 8bit
- * ANSI : American National Standards Institute
- * console 명령어 : %~% : 변수로 해석합니다.
+ * ANSI : American National Standards Institute : 8bit 문자표현 방식
+ * console 명령어 : %~% : 변수로 해석합니다. :
  
 <strong>환경변수설정</strong>
 * 컴퓨터가 자바가 설치된 경로를 자동으로 찾지 못하기 때문에 path로 자바 응용프로그램(ex.jdk,jre)가 환경변수 설정 path 를 통해 설치된 폴더 위치를 가리켜야한다.
@@ -53,3 +53,29 @@
  path : %JAVA_HOME%\bin
  
  echo %path%
+ 
+<strong>헷갈리는 내용정리</strong>
+* casting
+묵시적(implicit): 자동형변환 
+명시적(explicit): 프로그래머가 형변환
+
+```java
+byte 1 = 100;
+byte b2 = 20;
+
+//byte b3 = b1+b2 (error) ->b1과 b2는 int로 연산 후 int 값을 byte 넣기 불가능 
+byte b4 = (byte)(b1+b2); //명시적 형변환
+byte b5 = (byte)(b1+b4); // 쓰레기값 출력 byte보다 큰값 대입
+
+int i1 = b1+b2; // 묵시적 형변환
+double test01 = 100 + 0.5; //=> data type 이 큰쪽으로 묵시적 형변환
+
+//int test02 = 100 + 0.5; compile error double to int
+
+int i3 = 201/2; // 100
+double d1 = 201/2; // 100.0
+double d2 = (double)201/2; // 100.5
+double d3 = (double)(201/2); // 100.0
+
+
+```
