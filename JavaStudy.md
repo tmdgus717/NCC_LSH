@@ -35,4 +35,4 @@
 * End User = 사용자
 * url = Uniform Resource Locator : 리소스의 위치를 가리키는 문자열
           
- 
+ ## day2
