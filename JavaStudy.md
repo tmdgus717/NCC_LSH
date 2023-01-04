@@ -82,11 +82,17 @@ double d3 = (double)(201/2); // 100.0
 
 ## day3
 //용어 정리
+
 suffix = ++a
+
 prefix = a++
+
 refactoring =  '결과의 변경 없이 코드의 구조를 재조정함' / 주로 가독성을 높이고 유지보수를 편하게 한다.
+
 debugging = 시스템의 논리적인 오류나 비정상적 연산(버그)을 찾아내고 그 원인을 밝히고 수정하는 작업 과정을 뜻한다. 
+
 initialization = (숫자 = 0, boolean=false)
+
 new 키워드
 
 * 배열 생성방법
