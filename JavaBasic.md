@@ -106,3 +106,46 @@ new 키워드
 
 객체 3요소
 * 상태 행위 식별성
+
+## day4
+
+<Strong>1. 객체지향의 기본 원리</Strong>
+- 추상화(Abstraction)
+- 캡슐화(Encapsulation)
+- 모듈화(Modularity)
+- 계층화(Hierarchy)
+
+<Strong>2. 객체지향의 기본개념 </Strong>
+- 객 체(Object)
+- 클래스(Class)
+- 다형성(Polymorphism)
+- 관 계(RelationShips)
+
+<em><strong>객 체(Object)</strong></em>
+
+:물리적/ 개념적/ 소프트웨어적
+
+객체 = 식별성 + 상태 + 행위
+
+=> 식별성 : 같은 상태를 갖더라도 구분가능!
+
+=> 상태 : 객체가 가질 수 있는 조건 (Field), 시간, 행위를 통한 변경
+
+=> 행위 : 객체가 반응 할 수 있는 Message의 집합 (Method)
+
+<em><strong>추상화(Abstraction)</strong></em>
+
+=> 객체를 구분하는 핵심적인 특징으로 분류/집중
+
+=> 문제영역(Domain)에 의존적이다. (ex/교육시스템 => 사람 <= 병원)
+
+=> 추상화를 이용해 모델링 할 수 있다
+
+<em><strong>클래스(Class)</strong></em>
+:공통된 특성(속성), 행위, 관계, 의미를 갖는 객체의 모임
+
+=> 객체의 공통점을 찾아서 class로 정의한다
+
+=> 객체를 추상화해서 표현 / 정의한 것
+
+=> 객체지향의 원리 -> 추상화
