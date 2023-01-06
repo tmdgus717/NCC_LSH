@@ -149,3 +149,18 @@ new 키워드
 => 객체를 추상화해서 표현 / 정의한 것
 
 => 객체지향의 원리 -> 추상화
+
+
+## day5
+* bean : main 메소드가 없는 자바 class 파일
+* app : main 메소드를 포함한 자바 class 파일
+* getter
+* setter
+* classpath : 
+* 인자, 인수, 매개변수, paramater, arguments
+
+<em><strong>Constructor(생성자)</strong></em>
+* <strong>객체지향 대명제 : 객체는 서로 다른 상태를 갖는다</strong>
+* return 타입이 없다.
+* 오버로딩가능
+* 
