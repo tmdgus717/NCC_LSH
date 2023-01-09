@@ -164,3 +164,23 @@ new 키워드
 * return 타입이 없다.
 * 오버로딩가능
 * 
+
+## day6
+///용어정리
+
+API : Application Programming Interface
+
+<strong>this() , super() , this. , super. </strong>
+
+객체 생성시 this 와 super 가 같이 생성됨
+
+<em><strong>package</strong><em>
+ 
+ * 폴더 = 디렉토리 = 패키지(package)
+ * package의 csv = .
+ * classpath default = .; %java_home%\jre\lib\rt.jar;
+ * import java.lang.* = default로 import (생략가능)
+ * java 문서는 ///Field ///Constructor ///Method ///main 순
+ * <strong> java_home \ bin \ jar </strong> : jar은 자바압축기술
+ * <strong> java_home \ jre \ lib \ rt.jar </strong> : 자바 클래스들을 모아놓은 jar 파일
+ 
