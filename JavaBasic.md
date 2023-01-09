@@ -168,6 +168,8 @@ new 키워드
 ## day6
 ///용어정리
 
+has a :
+
 API : Application Programming Interface
 
 <strong>this() , super() , this. , super. </strong>
@@ -177,10 +179,27 @@ API : Application Programming Interface
 <em><strong>package</strong><em>
  
  * 폴더 = 디렉토리 = 패키지(package)
+ * 클래스의 묶음 단위
+ * 일종의 네이밍 룰
+ * opensource의 경우 도메인 이름의 역순으로 쓴다.
+ * javac -d . 옵션을 써서 컴파일 가능하다.
  * package의 csv = .
  * classpath default = .; %java_home%\jre\lib\rt.jar;
- * import java.lang.* = default로 import (생략가능)
+ * import java.lang.* = default로 import (생략가능) // import 키워드로 다른 패키지 내의 클래스를 사용
  * java 문서는 ///Field ///Constructor ///Method ///main 순
  * <strong> java_home \ bin \ jar </strong> : jar은 자바압축기술
  * <strong> java_home \ jre \ lib \ rt.jar </strong> : 자바 클래스들을 모아놓은 jar 파일
  
+<em><strong>Access Modifier(접근제어자)</strong><em>
+ 
+ * Encapsulation(캡슐화) 
+ * public / protected /_(default) / private
+ 
+ 1. public : 모든 외부에서 접근 가능
+ 2. protected : 동일 패키지, 상속구조에서 사용
+ 3. default : 같은 패키지에서 사용가능 (먼 친척보다 이웃사촌이 좋다~)
+ 4. private : 모든 외부에서 접근 불가
+ 
+ <em><strong>Static</strong><em>
+ 
+  
