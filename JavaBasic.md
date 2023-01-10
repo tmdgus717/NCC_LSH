@@ -202,4 +202,11 @@ API : Application Programming Interface
  
  <em><strong>Static</strong><em>
  
+  * 클래스 이름으로 접근가능
+  * static 키워드를 붙이면 static 영역에 생성됩니다. (공유의 의미를 가진다.)
+  * 행동이 상태에 영향을 주지 못할 때 static 을 사용합니다.
   
+  
+## day7
+  
+  // immutable , mutable
