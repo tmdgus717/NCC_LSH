@@ -209,4 +209,94 @@ API : Application Programming Interface
   
 ## day7
   
-  // immutable , mutable
+  // String(immutable) , StringBuffer(mutable)
+
+## day 8
+ 
+ <em><strong>* Calendar</strong><em>
+  * java.util.*; // util 패키지~ 
+  * 시간은 항상 변하기 때문에 인스턴스 생성 불가 abstract 클래스로 만들어 두었다.
+ <em><strong>* Date</strong><em>
+  
+ <em><strong>* DateFormat</strong><em>
+  
+  <em><strong>* SimpleDateFormat</strong><em>
+   
+  ### Wrapper 클래스  
+   
+   * autoBoxing &autoUnBoxing
+   * 기본자료형을 레퍼런스 자료형으로 변환하여 처리
+   
+  ### Collection (자바의 자료구조)
+   * java.util.Collection : 순서에 관계없는 객체들의 단순 모임
+   * java.util.Set : 중복되지 않는 수학적 의미의 객체 , Collections를 상속
+   * java.util.List : 순차적 나열에 의한 순서지정이 가능한 구조, Collections를 상속
+   * SortedSet : 정렬된 Set
+   * SortedMap : key가 정렬된 Map
+   1. AyrrayList or Vector  List 인터페이스 구현
+   2. Stack (LIFO) & Queue (FIFO)
+   3. HashTable & HashMap
+   
+   <strong> 제네릭 기능 </strong>
+   
+   *  <> 추가
+   * 다운캐스팅을 줄일 수 있는 구조로 변화
+   
+  ### Exception (처리)
+   * 예외 : 프로그램 실행 중에 발생하는 예기치 않은 사건
+   * 자바는 예외를 객체로 취급
+   * java.lange 패키지에서 제공
+   * Error, RuntimeException 클래스의 하위 클래스들을 제외한 모든 예외를 처리 (must be declared in the ....)
+   * try-catch (catch는 다중으로 사용가능 가장 상위 catch는 더 하위 Exception을 작성하여야 오류가 발생하지 않는다.)
+   * finally (반드시 실행)
+   * throws
+   * Exception 도 전부 계층구조
+   * 예외를 stack구조로 보여준다.(printStackTrace)
+   
+   <오늘 헷갈린 부분 정리>
+* API 잘보기
+* static fianl을 통해 가독성 좋게 만들 수 있다 또한 runtimeError가 아닌 compilError 로 출력해서 실수를 잡을 수 있다.
+* 삼항연산자 int a = (조건식) ? 참 : 거짓; 
+    ```java
+   String a = (i != numbers.length-1) ?",":"";
+			System.out.print(a);
+    ```
+* 부모 데이터 타입으로 인스턴스 생성을 하여도 Overriding 된 메소드에 먼저 접근한다.
+```java
+//Object a = new String("이순신");
+//System.out.println(a);
+// >> 이순신  //이 출력되는 이유
+class Test01
+{
+	public String toString(){
+		return "test01입니다";
+	}
+}
+class Test02 extends Test01
+{
+	public String toString(){
+		return "test01을 상속받은 test02입니다";
+	}
+}
+
+public class test
+{
+	public static void main(String args[]){
+		/*
+		Object obj = new Object();
+		System.out.println(obj);
+		Object obj2 = new String("이승현");
+		System.out.println(obj2.toString());
+		*/
+		Test01 test01 = new Test01();
+		System.out.println(test01.toString());
+
+		Test02 test02 = new Test02();
+		System.out.println(test02.toString());
+
+		Test01 test03 = new Test02();
+		System.out.println(test03.toString());
+	}
+}
+```
+ 
