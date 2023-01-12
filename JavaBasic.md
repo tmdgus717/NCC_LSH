@@ -306,6 +306,10 @@ public class test
 	
 * try - catch
 * thorw
-* thorw
+* thorws
+* MyException extends Exception
+* finally // 반드시 실행
+* e.printStackTrace();
+* Exception : checked (개발자가 커버 불가능) , unchecked(개발자의 실수 , RuntimeException)
 
-	  
+//this.getClass().getName(); : 클래스의 이름 가져오는방법
