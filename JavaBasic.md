@@ -299,4 +299,13 @@ public class test
 	}
 }
 ```
- 
+	  
+ ## day9
+	  
+<em><strong>Exception</strong></em>
+	
+* try - catch
+* thorw
+* thorw
+
+	  
