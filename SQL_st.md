@@ -19,3 +19,13 @@ port 1521
 * <strong> TCL </strong>
 * COMMIT
 * ROLLBACK
+
+
+# day2
+
+<em>헷갈린 부분</em>
+1. GROUP BY
+2. WHERE HAVING 차이
+3. Cartesian Product (카티션 곱)
+4. join, Equi join, Non-equi join
+5. PRIMARY KEY
